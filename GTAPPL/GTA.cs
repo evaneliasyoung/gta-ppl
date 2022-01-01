@@ -24,10 +24,10 @@ public class GTA
     /** #region Constructors */
     public GTA()
     {
-        this._exe = new Program("GTA");
+        this._exe = new Program("GTA5");
         if (this._exe.Processes.Count == 0)
         {
-            throw new DllNotFoundException("failed to load GTA");
+            throw new DllNotFoundException("failed to load GTA5");
         }
     }
     /** #endregion */
