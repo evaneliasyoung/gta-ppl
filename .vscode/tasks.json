@@ -9,7 +9,23 @@
         "build",
         "${workspaceFolder}/UI/UI.csproj",
         "/property:GenerateFullPaths=true",
-        "/consoleloggerparameters:NoSummary"
+        "/consoleloggerparameters:NoSummary",
+        "-nologo",
+        "-m"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "release",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/UI/UI.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary",
+        "-c Release",
+        "-m"
       ],
       "problemMatcher": "$msCompile"
     },

@@ -11,4 +11,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Company>Evan Elias Young</Company>
+    <Authors>Evan Elias Young</Authors>
+    <Copyright>Evan Elias Young 2017 - 2022</Copyright>
+    <Product>GTA-PPL</Product>
+    <Version>1.0.1</Version>
+    <Description>Generates a Public/Private Lobby in GTA Online.</Description>
+    <AssemblyTitle>Generates a Public/Private Lobby in GTA Online.</AssemblyTitle>
+  </PropertyGroup>
+
 </Project>
